@@ -1,10 +1,12 @@
 body
 {
-background-color: darkslategray;
+background-color: #292929;
 color:aliceblue;
 }
 
 h1
 {
+    font-family:fantasy;
     font:impact;
+    font-size:large;
 }
