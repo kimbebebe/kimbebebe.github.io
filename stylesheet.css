@@ -55,3 +55,71 @@ color:aliceblue;
     position:relative;
     width: 100vw;
 }
+
+.ProjectContent
+{
+    margin: 10px;
+    text-align: center;
+}
+
+.ProjectContainerNew
+{
+    margin: 10px auto;
+    height:300px;
+    width: 700px;
+    background-color: #202020;
+    margin-bottom: 20px;
+}
+
+.LatestProjectImg
+{
+    float:left;
+    width:300px;
+    height:300px;
+    background-image: url("chiens.jpg");
+}
+
+.LatestProjectCard
+{
+    height:300px;
+    float:right;
+    width:400px;
+    font-size: large;
+}
+
+.ProjectContainer
+{
+    height:200px;
+    width: 500px;
+    background-color: #202020;
+    margin:5px;
+}
+
+.ProjectImg
+{
+    float:left;
+    width:200px;
+    height:200px;
+    background-image: url("chiens.jpg");
+}
+
+.ProjectCard
+{
+    height:200px;
+    float:right;
+    width:300px;
+}
+
+.ProjectColumnLeft
+{
+    margin-left: 140px;
+    background-color: #365a4d;
+    float:left;
+}
+
+.ProjectColumnRight
+{
+    margin-right: 140px;
+    background-color: #365a4d;
+    float:right;
+}
