@@ -6,7 +6,7 @@
         href="stylesheet.css">
         <title>HOMEPAGE | K.Demoore</title>
     </head>
-    <body>
+    <body onload="myFunction()">
         <div class="navigation" style="background-color:#202020;">
             <a class="active" href="/">Home</a>
             <a href="projects.html">Projects</a>
@@ -15,7 +15,7 @@
         <div class="banner" style="background-color:#202020;">
             <h1>
                 <marquee direction=left>
-                    <i>Welcome to my Website!</i>
+                    <i id="picker"></i>
                 </marquee>
             </h1>
         </div>
@@ -23,5 +23,8 @@
             <p>I'm hosted with GitHub Pages</p>
             <a href="second_page.html" >SECONDPAGE IS HERE</a>
         </div>
+
+        <script src="code.js">
+        </script>
     </body>
 </html>
